@@ -1,0 +1,41 @@
+
+
+.diamond{
+margin: 100px auto;
+width: 150px;
+height: 150px;
+position: relative;
+background: #639adf;
+transform: rotate(45deg) skew(-20deg, -20deg);
+}
+
+.text_box {
+position: absolute;
+font-size: 13px;
+top: 70px;
+left: 38px;
+transform: skew(-20deg, -20deg) rotate(-45deg) scale(1.3, 4); ; /* 傾き・回転をリセット *//* 変形 横,縦 */
+}
+.btn_div{
+   width: 100%;
+   text-align: center;
+   
+}
+.btn_wash{
+   margin: auto;
+   font-size: 35px;
+
+}
+.btn_personal{
+   margin: auto;
+   font-size: 35px;
+}
+.btn_chat{
+   margin: auto;
+   background-color: rgb(133, 219, 133);
+   font-size: 13px;
+}
+
+.container{
+   background-color: bisque;
+}
